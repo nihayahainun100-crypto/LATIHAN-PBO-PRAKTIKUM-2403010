@@ -32,13 +32,3 @@ class Manajer extends Karyawan {
         System.out.println(nama + " memimpin tim di departemen " + departemen);
     }
 }
-
-// Main program
-public class InheritanceTest {
-    public static void main(String[] args) {
-        Manajer manajer1 = new Manajer("Budi", 7000, "IT");
-        manajer1.kerja();         // method dari superclass
-        manajer1.infoGaji();      // method dari superclass
-        manajer1.pimpinTim();     // method dari subclass
-    }
-}
